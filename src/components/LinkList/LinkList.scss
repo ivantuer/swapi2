@@ -1,0 +1,15 @@
+.list-flex {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 30px;
+  li {
+    &:hover {
+      color: brown;
+      cursor: pointer;
+    }
+    &.current {
+      color: brown;
+    }
+  }
+}
